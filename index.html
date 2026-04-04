@@ -1,0 +1,186 @@
+<head>
+    <link rel="stylesheet" href="style.css">
+</head>
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=DM+Mono:ital,wght@0,300;0,400;0,500;1,300&family=DM+Sans:wght@300;400;500&display=swap');
+</style>
+
+<nav>
+    <span class="nav-logo mono">fahmi.dev</span>
+    <div class="nav-links">
+        <a href="#projects">Projects</a>
+        <a href="#skills">Skills</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+    </div>
+</nav>
+
+<main>
+    <section class="hero">
+        <div class="badge mono">Available for new opportunities</div>
+        <h1>Fahmi<br><strong>Full Stack Developer</strong></h1>
+        <p class="hero-sub">6 years building scalable web systems with .NET, React, and Odoo. Based in Montréal — fluent
+            in French &amp; English.</p>
+        <div class="hero-tags">
+            <span class="tag">.NET 8 / C#</span>
+            <span class="tag">React</span>
+            <span class="tag">Odoo ERP</span>
+            <span class="tag">Clean Architecture</span>
+            <span class="tag">CQRS</span>
+            <span class="tag">Microservices</span>
+            <span class="tag">AWS</span>
+            <span class="tag">Docker</span>
+        </div>
+        <div class="ctas">
+            <a class="btn btn-primary" href="#contact">Get in touch →</a>
+            <a class="btn btn-ghost" href="https://github.com" target="_blank">GitHub ↗</a>
+            <a class="btn btn-ghost" href="#" download>Download CV</a>
+        </div>
+    </section>
+
+    <div class="divider"></div>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="projects-grid">
+            <div class="project-card featured">
+                <div class="project-header">
+                    <span class="project-title">INFOR → Odoo ERP Migration</span>
+                    <span class="project-badge">Featured</span>
+                </div>
+                <p class="project-desc">End-to-end ERP migration for a wood distribution company — from INFOR to a fully
+                    customized Odoo instance. Covered inventory, procurement, production, and reporting modules with
+                    custom Python modules and API integrations.</p>
+                <div class="project-tags">
+                    <span class="tag">Odoo 16</span>
+                    <span class="tag">Python</span>
+                    <span class="tag">PostgreSQL</span>
+                    <span class="tag">XML/RPC</span>
+                    <span class="tag">Distribution</span>
+                </div>
+            </div>
+            <div class="project-card">
+                <div class="project-header">
+                    <span class="project-title">Clean Architecture API — .NET 8</span>
+                </div>
+                <p class="project-desc">RESTful API built with ASP.NET Core 8 following Clean Architecture and CQRS
+                    patterns. Containerized with Docker, deployed on AWS with CI/CD via GitHub Actions.</p>
+                <div class="project-tags">
+                    <span class="tag">.NET 8</span>
+                    <span class="tag">CQRS / MediatR</span>
+                    <span class="tag">EF Core</span>
+                    <span class="tag">Docker</span>
+                    <span class="tag">AWS ECS</span>
+                </div>
+            </div>
+            <div class="project-card">
+                <div class="project-header">
+                    <span class="project-title">React Dashboard — ERP Front-end</span>
+                </div>
+                <p class="project-desc">Custom React dashboard consuming Odoo JSON-RPC APIs. Provides real-time
+                    inventory visibility and KPI tracking for production floor supervisors.</p>
+                <div class="project-tags">
+                    <span class="tag">React</span>
+                    <span class="tag">TypeScript</span>
+                    <span class="tag">Recharts</span>
+                    <span class="tag">Odoo API</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="divider"></div>
+
+    <section id="skills">
+        <h2>Skills</h2>
+        <div class="skills-grid">
+            <div class="skill-group">
+                <div class="skill-group-title">Backend</div>
+                <div class="skill-list">
+                    <div class="skill-item">.NET 8 / C# <span>· ASP.NET Core</span></div>
+                    <div class="skill-item">Clean Arch / CQRS</div>
+                    <div class="skill-item">Entity Framework Core</div>
+                    <div class="skill-item">REST &amp; GraphQL APIs</div>
+                </div>
+            </div>
+            <div class="skill-group">
+                <div class="skill-group-title">Frontend</div>
+                <div class="skill-list">
+                    <div class="skill-item">React <span>· TypeScript</span></div>
+                    <div class="skill-item">Next.js</div>
+                    <div class="skill-item">Tailwind CSS</div>
+                    <div class="skill-item">Redux / React Query</div>
+                </div>
+            </div>
+            <div class="skill-group">
+                <div class="skill-group-title">ERP / Odoo</div>
+                <div class="skill-list">
+                    <div class="skill-item">Odoo 14–17</div>
+                    <div class="skill-item">Custom module dev</div>
+                    <div class="skill-item">Python / ORM</div>
+                    <div class="skill-item">ERP migration</div>
+                </div>
+            </div>
+            <div class="skill-group">
+                <div class="skill-group-title">DevOps / Cloud</div>
+                <div class="skill-list">
+                    <div class="skill-item">AWS <span>· IAM, ECS, S3</span></div>
+                    <div class="skill-item">Docker / Compose</div>
+                    <div class="skill-item">GitHub Actions</div>
+                    <div class="skill-item">Microservices</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="divider"></div>
+
+    <section id="about">
+        <h2>About</h2>
+        <div class="about-block">
+            <div class="about-text">
+                <p>I'm a full stack developer with <strong>6 years of experience</strong> building production-grade
+                    applications across the .NET and React ecosystems.</p>
+                <br>
+                <p>Beyond typical web development, I bring an <strong>industrial engineering background</strong> (DESS)
+                    that gives me a unique edge on ERP projects, process optimization, and cross-functional
+                    collaboration with ops teams.</p>
+                <br>
+                <p>Based in <strong>Montréal</strong>. Bilingual French/English. Open to hybrid and remote roles across
+                    Canada.</p>
+            </div>
+            <div class="about-stats">
+                <div class="stat-row">
+                    <span class="stat-num">6</span>
+                    <span class="stat-label">years of professional experience</span>
+                </div>
+                <div class="stat-row">
+                    <span class="stat-num">2</span>
+                    <span class="stat-label">academic credentials (AEC + DESS)</span>
+                </div>
+                <div class="stat-row">
+                    <span class="stat-num">FR / EN</span>
+                    <span class="stat-label">bilingual — Montréal based</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="divider"></div>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <p style="color:var(--muted);font-size:14.5px;margin-bottom:1.25rem">Open to full-time and contract
+            opportunities. Feel free to reach out directly.</p>
+        <div class="contact-row">
+            <a class="contact-link" href="mailto:fahmi@email.com">✉ fahmi@email.com</a>
+            <a class="contact-link" href="https://linkedin.com" target="_blank">LinkedIn ↗</a>
+            <a class="contact-link" href="https://github.com" target="_blank">GitHub ↗</a>
+        </div>
+    </section>
+</main>
+
+<footer>
+    <span class="footer-left mono">fahmi.dev — Montréal, QC</span>
+    <span class="footer-right">Built with HTML · Hosted on GitHub Pages</span>
+</footer>
