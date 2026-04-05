@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Fahmi Kahlaoui — Full Stack Developer</title>
+  <title>Fahmi Kahlaoui — Développeur Full Stack</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -11,12 +11,12 @@
 <nav>
   <a class="nav-logo" href="#">fahmi.dev</a>
   <div class="nav-links">
-    <a href="#projects">Projects</a>
-    <a href="#skills">Skills</a>
-    <a href="#experience">Experience</a>
-    <a href="#education">Education</a>
+    <a href="#projects">Projets</a>
+    <a href="#skills">Compétences</a>
+    <a href="#experience">Expérience</a>
+    <a href="#education">Formation</a>
     <a href="#contact">Contact</a>
-    <a class="lang-switch" href="index-fr.html">FR</a>
+    <a class="lang-switch" href="index.html">EN</a>
   </div>
 </nav>
 
@@ -24,11 +24,12 @@
 
   <!-- HERO -->
   <section class="hero">
-    <div class="badge">Open to new opportunities · Montréal, QC</div>
-    <h1>Fahmi Kahlaoui<br><strong>Full Stack Developer</strong></h1>
+    <div class="badge">Disponible · Montréal, QC</div>
+    <h1>Fahmi Kahlaoui<br><strong>Développeur Full Stack</strong></h1>
     <p class="hero-sub">
-      6 years building production-grade web applications across the .NET and Odoo ecosystems.
-      I bridge backend architecture, modern frontends, and cloud infrastructure — with an industrial engineering background that gives me a unique edge on complex ERP projects.
+      6 ans d'expérience dans la conception et le développement d'applications web robustes
+      sur les écosystèmes .NET et Odoo. J'allie architecture backend, frontends modernes et infrastructure cloud —
+      avec une formation en génie industriel qui me confère une longueur d'avance sur les projets ERP complexes.
     </p>
     <div class="hero-tags">
       <span class="tag">.NET 8 / C#</span>
@@ -43,32 +44,32 @@
       <span class="tag">PostgreSQL</span>
     </div>
     <div class="ctas">
-      <a class="btn btn-primary" href="#contact">Get in touch →</a>
+      <a class="btn btn-primary" href="#contact">Me contacter →</a>
       <a class="btn btn-ghost" href="https://github.com/kwfx" target="_blank">GitHub ↗</a>
-      <a class="btn btn-ghost" href="fahmi-kahlaoui-cv.pdf" download>Download CV</a>
+      <a class="btn btn-ghost" href="fahmi-kahlaoui-cv.pdf" download>Télécharger le CV</a>
     </div>
   </section>
 
   <div class="divider"></div>
 
-  <!-- PROJECTS -->
+  <!-- PROJETS -->
   <section id="projects">
-    <h2>Projects</h2>
+    <h2>Projets</h2>
     <div class="projects-grid">
 
       <div class="project-card featured">
         <div class="project-header">
-          <span class="project-title">Ticket Management Module — .NET 8 / React / AWS</span>
-          <span class="project-badge">Featured</span>
+          <span class="project-title">Module de gestion de tickets — .NET 8 / React / AWS</span>
+          <span class="project-badge">En vedette</span>
         </div>
         <div class="project-desc">
           <ul>
-            <li>Full ticket management and tracking module for an internal app at a cleaning services company.</li>
-            <li>Backend with .NET 8 — Clean Architecture, Repository Pattern, Entity Framework Core.</li>
-            <li>Frontend in React / TypeScript with a modern, reactive UI.</li>
-            <li>AWS integration: EC2, RDS, S3 (file storage), SES (email notifications), Lambda (ticket creation from incoming emails).</li>
-            <li>Unit and integration tests; CI/CD pipeline via Git, GitHub Actions, Docker Compose.</li>
-            <li>Agile environment (Jira, Scrum).</li>
+            <li>Module complet de gestion et de suivi des tickets pour une application interne d'une société d'entretien ménager.</li>
+            <li>Backend en .NET 8 — Clean Architecture, Repository Pattern, Entity Framework Core.</li>
+            <li>Frontend en React / TypeScript, interface moderne et réactive.</li>
+            <li>Intégration cloud : AWS EC2, RDS, S3 (stockage des fichiers), SES (notifications par courriel), Lambda (création de tickets depuis les courriels reçus).</li>
+            <li>Tests unitaires et d'intégration ; pipeline CI/CD via Git, GitHub Actions, Docker Compose.</li>
+            <li>Environnement Agile (Jira, Scrum).</li>
           </ul>
         </div>
         <div class="project-tags">
@@ -84,31 +85,31 @@
 
       <div class="project-card">
         <div class="project-header">
-          <span class="project-title">ERP Migration — INFOR → Odoo (Corabois SA)</span>
+          <span class="project-title">Migration ERP — INFOR → Odoo (Corabois SA)</span>
         </div>
         <div class="project-desc">
           <ul>
-            <li>Full ERP migration for an industrial wood distribution company from INFOR to Odoo.</li>
-            <li>Analysis of existing business processes under INFOR and modelling of target flows in Odoo.</li>
-            <li>Customization of Inventory, Warehouse, Invoicing, Purchase, and Sales modules.</li>
-            <li>Migration and transformation of historical data (items, partners, stock movements).</li>
-            <li>Configuration of stock valuation rules, locations, and warehouse routes.</li>
+            <li>Migration complète de l'ERP d'une entreprise de distribution de bois depuis INFOR vers Odoo.</li>
+            <li>Analyse des processus métiers existants sous INFOR et modélisation des flux cibles dans Odoo.</li>
+            <li>Personnalisation des modules : Gestion des stocks, Entrepôt, Facturation, Achats et Ventes.</li>
+            <li>Migration et transformation des données historiques (articles, partenaires, mouvements de stock).</li>
+            <li>Paramétrage des règles de valorisation de stock, des emplacements et des routes d'entrepôt.</li>
           </ul>
         </div>
         <div class="project-tags">
           <span class="tag">Odoo</span>
           <span class="tag">Python</span>
           <span class="tag">PostgreSQL</span>
-          <span class="tag">ERP Migration</span>
+          <span class="tag">Migration ERP</span>
         </div>
       </div>
 
       <div class="project-card">
         <div class="project-header">
-          <span class="project-title">Odoo v7 (OpenERP) → Odoo v14 Migration</span>
+          <span class="project-title">Migration Odoo v7 (OpenERP) → Odoo v14</span>
         </div>
         <div class="project-desc">
-          Analysis of business logic changes, full backend and frontend code refactoring, migration of reports from Mako to QWeb, and optimization of functions and SQL queries.
+          Analyse des évolutions de la logique métier, refonte complète du code backend et frontend, migration des rapports de Mako vers QWeb, et optimisation des fonctions ainsi que des requêtes SQL.
         </div>
         <div class="project-tags">
           <span class="tag">Odoo</span>
@@ -122,12 +123,12 @@
 
       <div class="project-card">
         <div class="project-header">
-          <span class="project-title">Insurance Policy Management System — OpenERP</span>
+          <span class="project-title">Système de gestion des polices d'assurance — OpenERP</span>
         </div>
         <div class="project-desc">
           <ul>
-            <li>Custom business modules: policy management, coverage, quote requests, commission visualization and comparison.</li>
-            <li>Standalone Python application interfacing with Odoo via WebSocket for local scanner image acquisition.</li>
+            <li>Développement de modules métiers : gestion des polices, couvertures, demandes d'offres, visualisation et comparaison des commissions.</li>
+            <li>Application Python autonome interagissant avec Odoo via WebSocket pour l'acquisition d'images depuis un scanner local.</li>
           </ul>
         </div>
         <div class="project-tags">
@@ -141,10 +142,10 @@
 
       <div class="project-card">
         <div class="project-header">
-          <span class="project-title">Analytical Dashboard — Odoo</span>
+          <span class="project-title">Tableau de bord analytique — Odoo</span>
         </div>
         <div class="project-desc">
-          Design and development of a decision-support dashboard with KPIs and interactive charts, including data export to PDF and Excel.
+          Conception et développement d'un tableau de bord décisionnel avec KPIs et visualisations graphiques interactives, incluant l'export des données en PDF et Excel.
         </div>
         <div class="project-tags">
           <span class="tag">Odoo</span>
@@ -158,10 +159,10 @@
 
       <div class="project-card">
         <div class="project-header">
-          <span class="project-title">Odoo — Magento Connector</span>
+          <span class="project-title">Connecteur Odoo — Magento</span>
         </div>
         <div class="project-desc">
-          Optimization and extension of the connector API: improved endpoints, added mappings, automated synchronizations via Odoo Cron and FTP.
+          Optimisation et extension de l'API du connecteur : amélioration des endpoints, ajout de mappings, automatisation des synchronisations via Cron Odoo et FTP.
         </div>
         <div class="project-tags">
           <span class="tag">Odoo</span>
@@ -177,12 +178,12 @@
 
   <div class="divider"></div>
 
-  <!-- SKILLS -->
+  <!-- COMPÉTENCES -->
   <section id="skills">
-    <h2>Skills</h2>
+    <h2>Compétences</h2>
     <div class="skills-grid">
       <div class="skill-group">
-        <div class="skill-group-title">Languages</div>
+        <div class="skill-group-title">Langages</div>
         <div class="skill-list">
           <div class="skill-item">Python</div>
           <div class="skill-item">C# / TypeScript</div>
@@ -221,9 +222,9 @@
         <div class="skill-group-title">ERP / Odoo</div>
         <div class="skill-list">
           <div class="skill-item">Odoo v7 → v17</div>
-          <div class="skill-item">Custom module dev</div>
+          <div class="skill-item">Développement de modules</div>
           <div class="skill-item">QWeb · Owl · Mako</div>
-          <div class="skill-item">ERP migration</div>
+          <div class="skill-item">Migration ERP</div>
         </div>
       </div>
       <div class="skill-group">
@@ -236,7 +237,7 @@
         </div>
       </div>
       <div class="skill-group">
-        <div class="skill-group-title">Databases</div>
+        <div class="skill-group-title">Bases de données</div>
         <div class="skill-list">
           <div class="skill-item">PostgreSQL · MySQL</div>
           <div class="skill-item">PL/pgSQL</div>
@@ -244,7 +245,7 @@
         </div>
       </div>
       <div class="skill-group">
-        <div class="skill-group-title">Tools & Methods</div>
+        <div class="skill-group-title">Outils & Méthodes</div>
         <div class="skill-list">
           <div class="skill-item">Jira · Redmine · Agile</div>
           <div class="skill-item">gRPC · REST APIs</div>
@@ -257,49 +258,49 @@
 
   <div class="divider"></div>
 
-  <!-- EXPERIENCE -->
+  <!-- EXPÉRIENCE -->
   <section id="experience">
-    <h2>Experience</h2>
+    <h2>Expérience</h2>
     <div class="exp-item">
-      <div class="exp-role">Full Stack Developer</div>
+      <div class="exp-role">Développeur Full Stack</div>
       <div class="exp-meta">IT-Koncept Tunisie · 2018 – 2024</div>
       <div class="exp-desc">
         <ul>
-          <li>Analyzed functional and technical client requirements across commerce, restaurant, brokerage, and e-commerce sectors.</li>
-          <li>Designed, developed, and customized Odoo modules (Sales, Inventory, HR, Invoicing, Accounting).</li>
-          <li>Built analytical dashboards, custom PDF/Excel reports, and interactive data visualizations.</li>
-          <li>Developed scripts and scheduled tasks (Odoo Cron) for business process automation.</li>
-          <li>Collaborated with technical and functional teams in an Agile environment with a strong focus on code quality and documentation.</li>
+          <li>Analyse des besoins fonctionnels et techniques des clients dans les secteurs du commerce, de la restauration, du courtage et du e-commerce.</li>
+          <li>Conception, développement et personnalisation des modules Odoo (Ventes, Gestion de stock, RH, Facturation, Comptabilité).</li>
+          <li>Conception de tableaux de bord analytiques, rapports personnalisés (PDF/Excel) et visualisations interactives de données.</li>
+          <li>Développement de scripts et tâches planifiées (Cron Odoo) pour l'automatisation des processus métiers.</li>
+          <li>Collaboration avec les équipes techniques et fonctionnelles en approche Agile, avec un fort accent sur la qualité du code et la documentation.</li>
         </ul>
-        <div class="exp-stack">Stack: Odoo (Python & JavaScript) · Django · PostgreSQL · Docker · Git · QWeb · Mako · WebSocket · Ansible · AWS (EC2, RDS, Lambda)</div>
+        <div class="exp-stack">Stack : Odoo (Python & JavaScript) · Django · PostgreSQL · Docker · Git · QWeb · Mako · WebSocket · Ansible · AWS (EC2, RDS, Lambda)</div>
       </div>
     </div>
   </section>
 
   <div class="divider"></div>
 
-  <!-- EDUCATION -->
+  <!-- FORMATION -->
   <section id="education">
-    <h2>Education</h2>
+    <h2>Formation</h2>
     <div class="edu-grid">
       <div class="edu-card">
         <div>
-          <div class="edu-degree">AEC — Web Programming Technologies (LABGO)</div>
+          <div class="edu-degree">AEC — Programmation en technologies web (LABGO)</div>
           <div class="edu-school">Cégep Gérald-Godin · Montréal</div>
         </div>
         <div class="edu-year">2025</div>
       </div>
       <div class="edu-card">
         <div>
-          <div class="edu-degree">DESS — Industrial Engineering</div>
-          <div class="edu-school">École Nationale d'Ingénieurs de Carthage · Tunisia <span style="color:#4ade8080;font-size:11px;font-family:'DM Mono',monospace;">(MIFI recognized)</span></div>
+          <div class="edu-degree">DESS — Génie industriel</div>
+          <div class="edu-school">École Nationale d'Ingénieurs de Carthage · Tunisie <span style="color:#4ade8080;font-size:11px;font-family:'DM Mono',monospace;">(reconnu par le MIFI)</span></div>
         </div>
         <div class="edu-year">2016</div>
       </div>
       <div class="edu-card">
         <div>
-          <div class="edu-degree">Preparatory Cycle — Mathematics & Physics</div>
-          <div class="edu-school">Institut préparatoire aux études d'ingénieurs de Tunis · Tunisia</div>
+          <div class="edu-degree">Cycle préparatoire — Mathématiques et Physique</div>
+          <div class="edu-school">Institut préparatoire aux études d'ingénieurs de Tunis · Tunisie</div>
         </div>
         <div class="edu-year">2013</div>
       </div>
@@ -312,7 +313,7 @@
   <section id="contact">
     <h2>Contact</h2>
     <p style="color:var(--muted);font-size:14.5px;margin-bottom:1.25rem">
-      Open to full-time and contract opportunities in the Montréal area and remotely. Don't hesitate to reach out.
+      Disponible pour des postes permanents ou contractuels dans la région de Montréal ou en télétravail. N'hésitez pas à me contacter.
     </p>
     <div class="contact-row">
       <a class="contact-link" href="mailto:kw.fahmi@gmail.com">✉ kw.fahmi@gmail.com</a>
@@ -326,7 +327,7 @@
 
 <footer>
   <span class="footer-left">Fahmi Kahlaoui · Montréal, QC</span>
-  <span class="footer-right">Hosted on GitHub Pages</span>
+  <span class="footer-right">Hébergé sur GitHub Pages</span>
 </footer>
 
 </body>
